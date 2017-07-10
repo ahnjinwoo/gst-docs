@@ -286,8 +286,9 @@ stream and ignore it (and print out details).
 `gst-launch-1.0 audiotestsrc ! audioconvert ! audioresample ! osssink`
 Generate a pure sine tone to test the audio output
 
-`gst-launch-1.0 videotestsrc ! xvimagesink gst-launch-1.0 videotestsrc
-! ximagesink` Generate a familiar test pattern to test the video output
+`gst-launch-1.0 videotestsrc ! xvimagesink`  
+`gst-launch-1.0 videotestsrc ! ximagesink`  
+Generate a familiar test pattern to test the video output
 
 **Automatic linking**
 
