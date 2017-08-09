@@ -251,7 +251,7 @@ update our “UI”. Note that the timeout period is specified in
 nanoseconds, so usage of the `GST_SECOND` or `GST_MSECOND` macros is
 highly recommended.
 
-If we got a message, we process it in the `handle_message`` `function
+If we got a message, we process it in the `handle_message` function
 (next subsection), otherwise:
 
 ### User interface resfreshing
@@ -267,7 +267,7 @@ refresh the screen.
 
 We get here approximately 10 times per second, a good enough refresh
 rate for our UI. We are going to print on screen the current media
-position, which we can learn be querying the pipeline. This involves a
+position, which we can learn by querying the pipeline. This involves a
 few steps that will be shown in the next subsection, but, since position
 and duration are common enough queries, `GstElement` offers easier,
 ready-made alternatives:
